@@ -104,7 +104,7 @@ const handleOutgoingChat = () => {
   if(!userMessage || isResponseGenerating) return; // Exit if there is no message or response is generating
   isResponseGenerating = true;
   const html = `<div class="message-content">
-                  <img class="avatar" src="./IMG_2783-removebg-preview.png" alt="User avatar">
+                  <img class="avatar" src="./IMG_2786.png" alt="User avatar">
                   <p class="text"></p>
                 </div>`;
   const outgoingMessageDiv = createMessageElement(html, "outgoing");
